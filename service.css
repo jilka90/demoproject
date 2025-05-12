@@ -1,0 +1,163 @@
+/* icon color */
+#box1 .icon{
+    color: rgba(0, 229, 255, 0.838);
+    font-size: 3rem;
+}
+#box2 .icon{
+    color: orange;
+    font-size: 3rem;
+}
+#box3 .icon{
+    color:#20c997;
+    font-size: 3rem;
+}
+#box4 .icon{
+    color: #df1529;
+    font-size: 3rem;
+}
+#box5 .icon{
+    color:rgb(102, 16, 242);
+    font-size: 3rem;
+}
+#box6 .icon{
+    color: rgb(243, 38, 140);
+    font-size: 3rem;
+}
+#box7 .icon{
+    color: #20c997;
+    font-size: 3rem;
+}
+/* h4 read me  elements color */
+
+#box1 h4{
+    color: rgba(0, 229, 255, 0.838);
+}
+
+#box2 h4{
+    color: orange;
+}
+
+#box3 h4{
+    color: #20c997;
+}
+#box4 h4{
+    color: #df1529;
+}
+#box5 h4{
+    color: rgb(102, 16, 242);
+}
+#box6 h4{
+    color: rgb(243, 38, 140);
+}
+
+/* card text color */
+#box1 .card-text{
+    color: gray;
+}
+#box2 .card-text{
+    color: gray;
+}
+
+#box3 .card-text{
+    color: gray;
+}
+
+#box4 .card-text{
+    color: gray;
+}
+
+#box5 .card-text{
+    color: gray;
+}
+#box6 .card-text{
+    color: gray;
+}
+/* background color while hover */
+#box1:hover{
+    background-color: rgba(0, 229, 255, 0.838);
+    color: #fff;
+}
+#box2:hover{
+    background-color:orange;
+    color: #fff;
+}
+#box3:hover{
+    background-color:#20c997;
+    color: #fff;
+}
+#box4:hover{
+    background-color: #df1529;
+    color: #fff;
+}
+#box5:hover{
+    background-color: #6610f2;
+    color: #fff;
+}
+#box6:hover{
+    background-color: rgb(243, 38, 140);
+    color: #fff;
+}
+
+/* after hover text color should be white */
+#box1:hover .icon,.card:hover .card-text,.card:hover p, #box1:hover h4 {
+    color: #ffffff;
+
+}
+#box2:hover .icon,.card:hover .card-text,.card:hover p, #box2:hover h4 {
+    color: #ffffff;
+
+}
+#box3:hover .icon,.card:hover .card-text,.card:hover p,#box3:hover h4 {
+    color: #ffffff;
+
+}
+#box4:hover .icon,.card:hover .card-text,.card:hover p,#box4:hover h4 {
+    color: #ffffff;
+
+}
+#box5:hover .icon,.card:hover .card-text,.card:hover p,#box5:hover h4 {
+    color: #ffffff;
+
+}
+#box6:hover .icon,.card:hover .card-text,.card:hover p,#box6:hover h4 {
+    color: #ffffff;
+
+}
+
+
+/* on hover card h5 color changing */
+.card:hover h5{
+    color: #fff;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+
+#box1-title{
+    color: rgb(16, 13, 123);
+}
+ 
+a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.price li{
+
+    padding: 2px;
+    margin-bottom: 20px;
+}
+.card{
+    transition: all 0.3;
+}
+.card-body:hover{
+    transform: scale(1.15);
+}
+
+
+

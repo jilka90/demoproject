@@ -1,0 +1,46 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Styling */
+header{
+    background:rgb(247, 243, 248);
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .nav-logo .logo-text{
+    color: rgb(30, 10, 252);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttons{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    background: none;
+    color: rgb(0, 67, 252);
+
+}

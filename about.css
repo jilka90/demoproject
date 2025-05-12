@@ -1,0 +1,51 @@
+.row {
+    margin-top: 60px;
+    padding: 60px;
+
+
+
+}
+
+.white-content {
+    padding: 1rem;
+    margin: .25rem;
+}
+
+button {
+    padding: 10px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin: auto;
+    color: (#4154F1);
+
+}
+
+.content {
+    padding: 40px;
+    margin-top: 90px;
+
+}
+
+.card {
+    padding: 30px 50px;
+}
+
+.card-image {
+    height: auto;
+    max-width: 100%;
+
+}
+
+.center {
+    padding: 70px, 0;
+    text-align: center;
+    color: #131d92;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
