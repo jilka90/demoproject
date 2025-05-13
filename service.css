@@ -27,6 +27,18 @@
     color: #20c997;
     font-size: 3rem;
 }
+#box8 .icon{
+    color: #1ec4da;
+    font-size: 3rem;
+}
+#box9 .icon{
+    color: orange;
+    font-size: 3rem;
+}
+#box10 .icon{
+    color: rgb(55, 55, 225);
+    font-size: 3rem;
+}
 /* h4 read me  elements color */
 
 #box1 h4{
@@ -152,12 +164,30 @@ a{
     padding: 2px;
     margin-bottom: 20px;
 }
-.card{
-    transition: all 0.3;
+.price{
+    font-size: 30px;
+   color: #3f1188;
+    font-family: sans-serif;
+    font-weight: 600;
 }
-.card-body:hover{
-    transform: scale(1.15);
+.price sup{
+    font-size: 20x;
+    top: -15px;
+    left: -3px;
 }
+ .featured{
+    position: absolute;
+    top: 18px;
+    right: -68px; 
+    font-size: 14px;
+    width: 200px;
+    z-index: 1;
+    padding: 1px;
+    transform: rotate(45deg);
+    color: #fffefe;
+    background-color: #1b10f2;
+    
+ }
 
 
 
